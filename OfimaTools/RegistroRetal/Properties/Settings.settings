@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RegistroRetal.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Servidor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hestia</Value>
+    </Setting>
+    <Setting Name="DB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">plasmarsa</Value>
+    </Setting>
+    <Setting Name="Usuario" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ofimatica</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ofimatica</Value>
+    </Setting>
+    <Setting Name="Etiqueta" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">etqRetal.frx</Value>
+    </Setting>
+    <Setting Name="maqExt" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17</Value>
+    </Setting>
+    <Setting Name="maqImp" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,2,7,8,9,10</Value>
+    </Setting>
+    <Setting Name="maqRef" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,2,3,4,6,7,9</Value>
+    </Setting>
+    <Setting Name="maqSell" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</Value>
+    </Setting>
+    <Setting Name="maqLam" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

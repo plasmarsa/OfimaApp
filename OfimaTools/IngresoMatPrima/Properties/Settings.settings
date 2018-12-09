@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IngresoMatPrima.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Servidor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hestia</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Plasmarsa</Value>
+    </Setting>
+    <Setting Name="dbUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ofimatica</Value>
+    </Setting>
+    <Setting Name="dbPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ofimatica</Value>
+    </Setting>
+    <Setting Name="Etiqueta" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">etqmatprima.frx</Value>
+    </Setting>
+    <Setting Name="PLASMARSAConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=hestia;Initial Catalog=PLASMARSA;Persist Security Info=True;User ID=ofimatica;Password=ofimatica&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=hestia;Initial Catalog=PLASMARSA;Persist Security Info=True;User ID=ofimatica;Password=ofimatica</Value>
+    </Setting>
+    <Setting Name="VecesImprimeEtiqueta" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="pesoEstibaPlastica" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">36.7</Value>
+    </Setting>
+    <Setting Name="pesoEstibaMadera" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">28,9</Value>
+    </Setting>
+    <Setting Name="validarSegundoproducto" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

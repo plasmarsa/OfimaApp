@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80ADF525-A83A-452C-8476-753C9623BA10}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CalidadTintas</RootNamespace>
+    <AssemblyName>CalidadTintas</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tintas_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.53">
+      <HintPath>..\..\..\dlls\Bunifu_UI_v1.53.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ctrolAnilox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolAnilox.Designer.cs">
+      <DependentUpon>ctrolAnilox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolAprobado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolAprobado.Designer.cs">
+      <DependentUpon>ctrolAprobado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolAprobadoLista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolAprobadoLista.Designer.cs">
+      <DependentUpon>ctrolAprobadoLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolDashboard.Designer.cs">
+      <DependentUpon>ctrolDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolInformes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolInformes.Designer.cs">
+      <DependentUpon>ctrolInformes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolPersonal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolPersonal.Designer.cs">
+      <DependentUpon>ctrolPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolProceso.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolProceso.Designer.cs">
+      <DependentUpon>ctrolProceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrolSticker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrolSticker.Designer.cs">
+      <DependentUpon>ctrolSticker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambiarTinteros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambiarTinteros.Designer.cs">
+      <DependentUpon>frmCambiarTinteros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetalleControl.Designer.cs">
+      <DependentUpon>frmDetalleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ctrolAnilox.resx">
+      <DependentUpon>ctrolAnilox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolAprobado.resx">
+      <DependentUpon>ctrolAprobado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolAprobadoLista.resx">
+      <DependentUpon>ctrolAprobadoLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolDashboard.resx">
+      <DependentUpon>ctrolDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolInformes.resx">
+      <DependentUpon>ctrolInformes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolPersonal.resx">
+      <DependentUpon>ctrolPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolProceso.resx">
+      <DependentUpon>ctrolProceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrolSticker.resx">
+      <DependentUpon>ctrolSticker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambiarTinteros.resx">
+      <DependentUpon>frmCambiarTinteros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalleControl.resx">
+      <DependentUpon>frmDetalleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\Dataccess.tblControlCalidadTintasAnilox.datasource" />
+    <None Include="Properties\DataSources\Dataccess.tblControlCalidadTintasStick.datasource" />
+    <None Include="Properties\DataSources\Dataccess.vUsrControlCalidadTintasAprobados.datasource" />
+    <None Include="Properties\DataSources\Dataccess.vUsrGosem_ghPlasmar_rhRecursos.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dataccess\Dataccess.csproj">
+      <Project>{9a7a70c7-76c8-47b6-ad4f-9db59a7eb9e8}</Project>
+      <Name>Dataccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save as_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approve_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Approve_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save as_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dispensing_Color.ico" />
+    <Content Include="Resources\Cancel_50px.png" />
+    <None Include="Resources\Worker_50px.png" />
+    <Content Include="tintas_icon.ico" />
+    <None Include="Resources\tintas_Logo_64px.png" />
+    <None Include="Resources\Transfer_hover_25px.png" />
+    <None Include="Resources\Transfer_25px.png" />
+    <None Include="Resources\Cancel_hover_50px.png" />
+    <None Include="Resources\Cancel_black_50px.png" />
+    <Content Include="Resources\icons8_hover_Cancel_32.png" />
+    <None Include="Resources\Delete_a_record_50px.png" />
+    <None Include="Resources\Delete_a_record_hover_50px.png" />
+    <None Include="Resources\Save as_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

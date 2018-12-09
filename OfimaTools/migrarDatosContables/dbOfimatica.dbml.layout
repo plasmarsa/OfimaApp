@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 14.5" name="dbOfimatica">
+  <DataContextMoniker Name="/dbOfimaticaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="967d5fc7-f92d-48c6-bcf9-f13ca619126d" isExpanded="false" absoluteBounds="4.5, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/CENTCO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f4af9df-240a-4eca-98ad-3a30f898640b" absoluteBounds="4.5150000000000006, 2.96, 1.9700000000000002, 1.5727706079681714" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bd464d28-b5e5-4159-a6ac-2d619c6117de" absoluteBounds="7, 6.875, 2, 7.3924365392327314">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/MVTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a467a0b6-b547-4e8c-8545-d084a24d9df4" absoluteBounds="7.015, 7.335, 1.9700000000000002, 6.8324365392327309" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfecb1b5-bcd9-4fce-9605-2da633c5830a" absoluteBounds="1, 5.625, 2, 7.2227698962887121">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/MVTOAUX" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d89e8ae-9f9b-4bfb-b8af-c40c72c3594a" absoluteBounds="1.0150000000000001, 6.085, 1.9700000000000002, 6.6627698962887125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3df1e56-991b-45a1-9742-98302c9a51e3" isExpanded="false" absoluteBounds="4.125, 4.75, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/NIT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f953d1f2-c31f-4116-bb57-da55e3d15e1f" absoluteBounds="4.14, 5.21, 1.9700000000000002, 7.6807697539528208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.1562525 : 5.2); (5.1562525 : 11.622361785014); (7 : 11.622361785014)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbOfimaticaDataContext/NIT/NIT_MVTO" />
+      <nodes>
+        <classShapeMoniker Id="a3df1e56-991b-45a1-9742-98302c9a51e3" />
+        <classShapeMoniker Id="bd464d28-b5e5-4159-a6ac-2d619c6117de" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.60937375 : 5.2); (4.60937375 : 8.62368089250702); (3 : 8.62368089250702)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbOfimaticaDataContext/NIT/NIT_MVTOAUX" />
+      <nodes>
+        <classShapeMoniker Id="a3df1e56-991b-45a1-9742-98302c9a51e3" />
+        <classShapeMoniker Id="cfecb1b5-bcd9-4fce-9605-2da633c5830a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="bcb26587-cfc8-4ea6-9d57-6c0c19e5a439" isExpanded="false" absoluteBounds="7, 2.25, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/vUsr_ghPlasmar_rhRecurso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4870d1cf-b66e-460e-8601-06fa2d8435d5" absoluteBounds="7.015, 2.71, 1.9700000000000002, 3.43910368035237" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="84d1c8eb-50ea-4fce-91d7-109182b92e8b" isExpanded="false" absoluteBounds="8.125, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/vUsrGosem_rh_co_grupos_compensaciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ac57d42-91e7-4685-a07f-ff8a5f05a0a8" absoluteBounds="8.14, 1.085, 1.9700000000000002, 5.98410332451264" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d15b7103-c9af-4e4a-8821-b37698a9c233" absoluteBounds="0.5, 3.75, 2, 1.6237706791361171">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/vUsrGosem_rh_co_tipos_causaciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="254f6202-fe03-4b17-a0b4-41918a12ef61" absoluteBounds="0.51499999999999968, 4.21, 1.9700000000000002, 1.0637706791361172" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="76129195-27d7-44a6-a075-3f22ec58f112" isExpanded="false" absoluteBounds="5.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/vUsrGosem_rh_co_comprobantes_encabezados" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b28d3fa-7f0a-4b17-8448-da7ed3f681a1" absoluteBounds="5.7650000000000006, 0.96, 1.9700000000000002, 2.9301037515203157" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="968991d8-1c52-4e47-bdda-7d1cf57ece48" absoluteBounds="0.5, 0.5, 2, 2.8114371797442437">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/vUsrGosem_DocumentoNomina" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f26e45b-1687-4c8c-8956-29bbfd236c7d" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.2514371797442436" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0602e859-2850-4e40-abac-8ef875158ab1" isExpanded="false" absoluteBounds="3.375, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/tblGosemIntegracionesContabilidad" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f51b0bc-d593-40e4-a441-e8412df61df7" absoluteBounds="3.39, 1.585, 1.9700000000000002, 0.72443739324808121" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="29bb9e9d-b389-49fd-a2fc-6d10877e2353" isExpanded="false" absoluteBounds="7.75, 3.125, 2, 0.45">
+      <DataClassMoniker Name="/dbOfimaticaDataContext/CONSECUT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d36191e-58f9-42d6-9824-be1e96944182" absoluteBounds="7.765, 3.585, 1.9700000000000002, 6.8324365392327309" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
