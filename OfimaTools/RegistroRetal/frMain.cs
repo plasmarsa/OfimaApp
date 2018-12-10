@@ -316,6 +316,7 @@ namespace RegistroRetal
                 db.tblRetalRegistro.InsertOnSubmit(retal);
                 db.SubmitChanges();
                 ImprimirEtiqueta(retal.IdReg);
+                retal = null;
                 SetearControles();
                 causaExtrusion.Resetear_Controles();
                 causasImpresion.Resetear_Controles();
